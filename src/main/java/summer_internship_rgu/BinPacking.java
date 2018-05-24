@@ -58,7 +58,7 @@ class hello{
 	
 	public void calculate() throws Exception
 	{
-		reader = new BufferedReader(new FileReader("C:\\Ashish\\Clustering-Bin-Packing\\src\\main\\resources\\binpack1.txt"));
+		reader = new BufferedReader(new FileReader("C:\\Vimal Anand\\Clustering-Bin-Packing\\src\\main\\resources\\binpack1.txt"));
 		
 		try {
 			
@@ -138,7 +138,7 @@ class hello{
 	
 	public void output(){
 		try {
-		PrintWriter writer = new PrintWriter(new File("C:\\Ashish\\Clustering-Bin-Packing\\src\\main\\output\\binpack1_output.txt"));
+		PrintWriter writer = new PrintWriter(new File("C:\\Vimal Anand\\Clustering-Bin-Packing\\src\\main\\output\\binpack1_output.txt"));
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < examples; j++) {
 				writer.print(final_bins[i][j] + "\t");
