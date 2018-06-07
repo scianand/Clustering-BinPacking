@@ -1,0 +1,10 @@
+                                      Geographical time Clustering(k=21)                           Timing Geographical Clustering
+                                 collection based            delivery based                  collection based             delivery based
+              
+offline:
+First Fit Decreasing                53590                       53524                             53718                        53692
+Harmonic Algorithm                  53744                       53714                             53747                        53717
+
+Online:
+First Fit                           53642                       53577                             53732                        53704
+Best Fit
