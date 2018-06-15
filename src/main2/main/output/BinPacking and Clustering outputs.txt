@@ -1,0 +1,22 @@
+                                      Geographical time Clustering(k=21)                           Timing Geographical Clustering
+                                 collection based            delivery based                  collection based             delivery based
+              
+offline:
+First Fit Decreasing                53666                       53630                             53718                        53692
+Harmonic Algorithm                  53747                       53717                             53747                        53717
+
+Online:
+First Fit                           53731                       53701                             53732                        53704
+Best Fit                                                                                                                                         
+
+
+
+
+                                                                                                    Solutions
+
+Optimal: when all the items to be packed are available at a time                                      50551
+         when the items available at different time(Collection)                                       51012
+         when the items available at different time(Delivery)                                         50972
+Bin Packing optimal: when the items available at different time(Collection)                           53410
+                     when the items available at different time(Delivery)                             53222
+Our best solution till now:                                                                           53630
